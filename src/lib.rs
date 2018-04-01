@@ -1,7 +1,9 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
+extern crate futures;
+extern crate tokio;
+extern crate internship;
+
+pub mod broadcast;
+
+mod topic;
+mod router;
+mod session;

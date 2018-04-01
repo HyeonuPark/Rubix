@@ -4,3 +4,9 @@ version = "0.1.0"
 authors = ["Hyeonu Park <nemo1275@gmail.com>"]
 
 [dependencies]
+tokio = "0.1"
+tokio-io = "0.1"
+futures = "0.1"
+bytes = "0.4"
+internship = "0.4"
+snowflake = "1.3"
